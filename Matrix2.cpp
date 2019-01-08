@@ -14,6 +14,7 @@ public:
 			for(int j=0; j<COL; j++)
 				arr[i][j] = i * COL + j;
 	}
+	// Kundan
 	class Helper{
 		Matrix* m_p;
 		int rowInd;
