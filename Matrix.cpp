@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-#define ROW 3
+#define ROW 4
 #define COL 4
 
 class Matrix{
