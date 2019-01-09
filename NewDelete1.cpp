@@ -63,6 +63,7 @@ void main(){
 	*/
 	delete [] ap;
 	/*
+	 * deallocating the memory 
 		ap[3]->~cA();
 		ap[2]->~cA();
 		ap[1]->~cA();
@@ -78,6 +79,7 @@ void main6(){
 
 	// used chunk
 	cA *ap = new(chunk) cA();  // Placement new
+	//creating the dynamic memory
 	cA *ap1 = new(chunk + sizeof(cA) ) cA();  // Placement new
 	cA *ap2 = new(chunk + 2 * sizeof(cA) ) cA();  // Placement new
 	cA *ap3 = new(chunk  + 3 *sizeof(cA) ) cA();  // Placement new
