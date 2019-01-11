@@ -36,6 +36,9 @@ public:
 		cout<<"Matrix operator + (Matrix& rhs)"<<endl;
 		// logic
 		return *this;
+	  sum(int a, int b)
+	  {
+		  
 	}
 };
 
